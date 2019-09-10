@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Petit+Formal+Script&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.showcase{
+  width: 100%;
+  height: 60vh;
+  background-image: url('/pictures/stock/python.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position-y: -420px;
+  background-repeat: no-repeat;
+}
+
+.card-image img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+}
+
+.body{
+  height: 650px;
+  padding: 40px 0;
+  background: #111;
+  color: #888;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card{
+  /* border: 2px solid red; */
+  overflow: hidden;
+  padding: 15px;
+}
+
+.card img{
+  float: left;
+  
+}
+
+p.lead{
+  max-width: 900px;
+  /* margin-left: 150px; */
+  float: left;
+  font-size: 1.6rem;
+  padding: 18px;
+}
+
+.showcases{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-140%);
+  -webkit-transform: translate(-50%,-180%);
+  -moz-transform: translate(-50%,-140%);
+  -ms-transform: translate(-50%,-140%);
+  -o-transform: translate(-50%,-140%);
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.jumbotron{
+  background: #000;
+  color: ghostwhite;
+  font-size: 60px;
+  padding: 12px;
+  width: 700px;
+  opacity: 0.7;
+}
+
+.showcases h3{
+  font-weight: bolder;
+  color: olivedrab;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+footer{
+  padding: 1.4rem;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder
+}
